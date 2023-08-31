@@ -1,0 +1,249 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "flores",
+              "type": "flores"
+            }
+          ],
+          "name": "FloresIntent",
+          "samples": [
+            "me envie {flores}",
+            "envie {flores}",
+            "{flores}",
+            "traga-me um {flores}",
+            "me dê um {flores}",
+            "quero um {flores}",
+            "mande-me um {flores}",
+            "traga-me {flores}",
+            "me dê {flores}",
+            "quero {flores}",
+            "mande-me {flores}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "margarida",
+              "type": "margarida"
+            }
+          ],
+          "name": "MargaridaIntent",
+          "samples": [
+            "me envie {margarida}",
+            "envie {margarida}",
+            "trafa-me {margarida}",
+            "me dê {margarida}",
+            "quero {margarida}",
+            "mande-me {margarida}",
+            "{margarida}",
+            "traga-me uma {margarida}",
+            "me dê uma {margarida}",
+            "quero uma {margarida}",
+            "mande-me uma {margarida}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "rosa",
+              "type": "rosa"
+            }
+          ],
+          "name": "RosaIntent",
+          "samples": [
+            "me envie {rosa}",
+            "envie {rosa}",
+            "{rosa}",
+            "traga-me uma {rosa}",
+            "traga-me {rosa}",
+            "me dê {rosa}",
+            "me dê uma {rosa}",
+            "quero {rosa}",
+            "quero uma {rosa}",
+            "mande-me uma {rosa}",
+            "mande-me {rosa}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "tulipa",
+              "type": "tulipa"
+            }
+          ],
+          "name": "TulipaIntent",
+          "samples": [
+            "me envie {tulipa}",
+            "envie {tulipa}",
+            "traga-me {tulipa}",
+            "traga-me uma {tulipa}",
+            "me dê uma {tulipa}",
+            "me dê {tulipa}",
+            "quero {tulipa}",
+            "quero uma {tulipa}",
+            "mande-me {tulipa}",
+            "mande-me uma {tulipa}",
+            "{tulipa}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "violeta",
+              "type": "violeta"
+            }
+          ],
+          "name": "VioletaIntent",
+          "samples": [
+            "me envie {violeta}",
+            "envie {violeta}",
+            "traga-me uma {violeta}",
+            "traga-me {violeta}",
+            "me dê uma {violeta}",
+            "me dê {violeta}",
+            "quero {violeta}",
+            "quero uma {violeta}",
+            "mande-me uma {violeta}",
+            "mande-me {violeta}",
+            "{violeta}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "lirio",
+              "type": "lirio"
+            }
+          ],
+          "name": "LirioIntent",
+          "samples": [
+            "me envie {lirio}",
+            "envie {lirio}",
+            "traga-me um {lirio}",
+            "traga-me {lirio}",
+            "me dê {lirio}",
+            "me dê um {lirio}",
+            "quero {lirio}",
+            "quero um {lirio}",
+            "mande-me um {lirio}",
+            "mande- me {lirio}",
+            "{lirio}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "buquê"
+              }
+            },
+            {
+              "name": {
+                "value": "flores"
+              }
+            }
+          ],
+          "name": "flores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "margaridas"
+              }
+            },
+            {
+              "name": {
+                "value": "margarida"
+              }
+            }
+          ],
+          "name": "margarida"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "rosas"
+              }
+            },
+            {
+              "name": {
+                "value": "rosa"
+              }
+            }
+          ],
+          "name": "rosa"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "violetas"
+              }
+            },
+            {
+              "name": {
+                "value": "violeta"
+              }
+            }
+          ],
+          "name": "violeta"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "lírio"
+              }
+            },
+            {
+              "name": {
+                "value": "lírios"
+              }
+            }
+          ],
+          "name": "lirio"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tulipas"
+              }
+            },
+            {
+              "name": {
+                "value": "tulipa"
+              }
+            }
+          ],
+          "name": "tulipa"
+        }
+      ],
+      "invocationName": "mande me flores"
+    }
+  }
+}
